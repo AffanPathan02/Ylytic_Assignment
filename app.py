@@ -23,6 +23,6 @@ def author_name():
                 "reply": individual_comment['reply'],
                 "text": individual_comment['text']
             })
-        json_data = json.dumps(lst_obj, sort_keys=True, indent=4)
-    return (json.loads(json_data))
+    json_data = json.dumps(lst_obj, sort_keys=True, indent=4)
+    return (json_data)
 
